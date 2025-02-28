@@ -1,0 +1,168 @@
+body {
+    background-color: white;
+    justify-content: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#HeaderTop {
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('teti.jpg');
+    background-size: cover;
+}
+
+#HeaderTopText {
+    font-size: 100px;
+    color: white;
+    border: 10px solid white;
+}
+
+#Menu {
+    background-color: rgb(49, 49, 49);
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Menu a {
+    font-size: 20px;
+    color: white;
+    margin-left: 9%;
+}
+
+#Header {
+    height: 600px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#HeaderImage {
+    background-image: url('BackgroundHeader.jpg');
+    height: 500px;
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 30px;
+    background-repeat: no-repeat;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+#HeaderText {
+    width: 50%;
+}
+
+button {
+    height: 50px;
+    width: 100%;
+    margin-top: 2%;
+    background-color: black;
+    color: white;
+}
+
+#HeaderTopText, #HeaderText h1, .InfoBox .ImageText {
+    /* Your styles here */
+    text-align: center;
+    font-size: 70px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Spacing Fix */
+#Info {
+    width: 100vw;
+    height: 950px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-bottom: 50px; /* Adds spacing between Info and EventList */
+}
+
+.InfoBox {
+    height: 400px;
+    width: 30%;
+    background-color: white;
+}
+
+.infoimage {
+    height: 400px;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+/* EventList Section */
+#EventList {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(43, 42, 42);
+    clear: both;
+}
+
+.Carousel {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    width: 45%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden; /* Prevents any overflow */
+}
+
+.Carousel h1 {
+    font-size: 50px; /* Adjusted for better fit */
+    color: white;
+    margin-bottom: 10px; /* Space between text and image */
+}
+
+.Carousel img {
+    max-width: 100%; /* Ensures image does not overflow width */
+    max-height: 70%; /* Prevents image from extending beyond Carousel */
+    object-fit: contain; /* Maintains aspect ratio */
+}
+
+
+#Citations {
+    width: 100vw;
+    background-color: black;
+    height: 50px;
+    align-items: center;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Copyrights{
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    text-align: left;
+}
+
+#Address {
+    font-size: 20px;
+    color: white;
+    margin-right: 30px;
+    text-align: right;
+}
